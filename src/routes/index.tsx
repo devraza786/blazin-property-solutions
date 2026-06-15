@@ -4,7 +4,6 @@ import { useRef } from "react";
 import { ArrowRight, Phone, Flame, MapPin, Clock, Building2, Zap } from "lucide-react";
 import { SITE, IMG, SERVICES, TESTIMONIALS } from "@/lib/site";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
-import { BeforeAfter } from "@/components/before-after";
 import { GoogleReviewsWidget } from "@/components/google-reviews";
 
 export default function Home() {
@@ -110,8 +109,8 @@ export default function Home() {
         <div className="mx-auto max-w-7xl grid lg:grid-cols-2 gap-16 items-center">
           <Reveal>
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl">
-              <BeforeAfter before={IMG.yardCleanupBefore} after={IMG.yardCleanup} alt="Yard cleanup transformation" />
-              <div className="absolute inset-0 bg-gradient-to-tr from-background/70 to-transparent pointer-events-none" />
+              <img src={IMG.yardCleanup} alt="Cleaned-up yard after Blazin Property Solutions service" className="absolute inset-0 h-full w-full object-cover hover:scale-105 transition-transform duration-[2s]" />
+              <div className="absolute inset-0 bg-gradient-to-tr from-background/70 to-transparent" />
             </div>
           </Reveal>
           <div>
