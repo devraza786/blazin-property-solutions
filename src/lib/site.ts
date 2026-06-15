@@ -29,6 +29,7 @@ export const IMG = {
   galleryFenceRepair: "/assets/gallery-fence-repair.jpg",
   deckRemoval: "/assets/deck-removal.jpg",
   treeRemoval: "/assets/tree-removal.jpg",
+  galleryJunkHaul: "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2Fa38ce6570d394194900aa39173c96c4e?format=webp&width=800&height=1200",
 };
 
 export const SERVICES = [

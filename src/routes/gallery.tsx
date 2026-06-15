@@ -6,7 +6,7 @@ const PROJECTS = [
   { img: IMG.galleryHouseDebris, title: "Side-Yard Debris Cleanout", tag: "Junk Removal", h: "short" },
   { img: IMG.galleryShopHaul, title: "Shop Lot Bulk Pickup", tag: "Property Mgmt", h: "tall" },
   { img: IMG.galleryFenceRepair, title: "Privacy Fence Repair", tag: "Fencing", h: "short" },
-  { img: IMG.dumpLoad, title: "Full Junk Haul", tag: "Junk Removal", h: "short" },
+  { img: IMG.galleryJunkHaul, title: "Full Junk Haul", tag: "Junk Removal", h: "short" },
   { img: IMG.svcDemo, title: "Demolition", tag: "Demolition", h: "short" },
   { img: IMG.deckRemoval, title: "Deck Removal", tag: "Demolition", h: "short" },
   { img: IMG.dumpLoad, title: "Demolition Haul-Off", tag: "Demolition", h: "short" },
