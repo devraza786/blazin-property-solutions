@@ -25,6 +25,7 @@ export const IMG = {
   galleryHouseDebris: "/assets/gallery-house-debris.jpg",
   galleryShopHaul: "/assets/gallery-shop-haul.jpg",
   galleryFenceRepair: "/assets/gallery-fence-repair.jpg",
+  deckRemoval: "/assets/deck-removal.jpg",
 };
 
 export const SERVICES = [

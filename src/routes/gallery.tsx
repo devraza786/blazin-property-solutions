@@ -2,18 +2,18 @@ import { IMG, SITE } from "@/lib/site";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
 
 const PROJECTS = [
-  { img: IMG.galleryTruckRoad, title: "On-Route Haul Service", tag: "Hauling", h: "tall" },
+  { img: IMG.galleryTruckRoad, title: "On-Route Haul Service", tag: "Junk Removal", h: "tall" },
   { img: IMG.galleryHouseDebris, title: "Side-Yard Debris Cleanout", tag: "Junk Removal", h: "short" },
   { img: IMG.galleryShopHaul, title: "Shop Lot Bulk Pickup", tag: "Property Mgmt", h: "tall" },
   { img: IMG.galleryFenceRepair, title: "Privacy Fence Repair", tag: "Fencing", h: "short" },
   { img: IMG.truckTrailer, title: "Equipment on Site", tag: "General", h: "tall" },
   { img: IMG.dumpLoad, title: "Full Junk Haul", tag: "Junk Removal", h: "short" },
-  { img: IMG.trailerAlley, title: "Alley Access Cleanout", tag: "Hauling", h: "short" },
+  { img: IMG.svcDemo, title: "Demolition", tag: "Demolition", h: "short" },
+  { img: IMG.deckRemoval, title: "Deck Removal", tag: "Demolition", h: "short" },
   { img: IMG.yardCleanup, title: "Yard Restoration", tag: "Property Mgmt", h: "tall" },
   { img: IMG.dumpLoad, title: "Demolition Haul-Off", tag: "Demolition", h: "short" },
   { img: IMG.truckTrailer, title: "Ready for Pickup", tag: "Service Day", h: "tall" },
   { img: IMG.yardCleanup, title: "Tree & Brush Cleanup", tag: "Tree Trimming", h: "short" },
-  { img: IMG.trailerAlley, title: "Tight Access Hauling", tag: "Junk Removal", h: "tall" },
 ];
 
 export default function Gallery() {
