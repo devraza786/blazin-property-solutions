@@ -27,19 +27,19 @@ export function BeforeAfter({ before, after, alt }: BeforeAfterProps) {
   return (
     <div
       ref={containerRef}
-      className="relative w-full overflow-hidden rounded-3xl cursor-col-resize group"
+      className="relative w-full aspect-[4/5] overflow-hidden rounded-3xl cursor-col-resize group"
       onMouseMove={handleMouseMove}
       onTouchMove={handleTouchMove}
     >
       {/* After image (background) */}
-      <img src={after} alt={`${alt} - after`} className="w-full h-full block" />
+      <img src={after} alt={`${alt} - after`} className="absolute inset-0 w-full h-full object-cover" />
 
       {/* Before image (overlay) */}
       <div
         className="absolute top-0 left-0 h-full overflow-hidden"
         style={{ width: `${position}%` }}
       >
-        <img src={before} alt={`${alt} - before`} className="w-screen h-full object-cover" style={{ width: `${(100 / position) * 100}%` }} />
+        <img src={before} alt={`${alt} - before`} className="absolute inset-0 h-full w-full object-cover" style={{ width: `calc(100% / ${position} * 100)` }} />
       </div>
 
       {/* Divider line */}

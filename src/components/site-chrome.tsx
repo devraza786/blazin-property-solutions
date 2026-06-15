@@ -22,7 +22,7 @@ export function Header() {
         <div className="glass-card rounded-2xl px-4 sm:px-6 py-3 grid grid-cols-[auto_1fr_auto] items-center gap-4">
           <Link to="/" className="flex items-center gap-3 min-w-0">
             <img src={IMG.logo} alt="Blazin Property Solutions logo" className="h-10 w-10 rounded-lg object-cover" />
-            <div className="hidden sm:block min-w-0">
+            <div className="min-w-0">
               <div className="font-display text-sm tracking-wider truncate">BLAZIN PROPERTY</div>
               <div className="text-[10px] uppercase tracking-[0.3em] text-primary -mt-0.5">Solutions</div>
             </div>
