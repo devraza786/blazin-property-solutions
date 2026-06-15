@@ -4,7 +4,6 @@ import { useRef } from "react";
 import { ArrowRight, Phone, Flame, MapPin, Clock, Building2, Zap } from "lucide-react";
 import { SITE, IMG, SERVICES, TESTIMONIALS } from "@/lib/site";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
-import { GoogleReviewsWidget } from "@/components/google-reviews";
 
 export default function Home() {
   const ref = useRef<HTMLDivElement>(null);
@@ -233,25 +232,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* GOOGLE REVIEWS */}
+      {/* TESTIMONIALS */}
       <section className="px-4 sm:px-6 lg:px-8 py-32">
         <div className="mx-auto max-w-7xl">
           <Reveal className="mb-16">
             <div className="text-[10px] uppercase tracking-[0.3em] text-primary mb-4">Reviews</div>
-            <h2 className="font-display text-6xl sm:text-8xl leading-[0.9]">TRUSTED BY<br/><span className="text-fire-gradient">OUR COMMUNITY</span></h2>
-          </Reveal>
-          <Reveal>
-            <GoogleReviewsWidget />
-          </Reveal>
-        </div>
-      </section>
-
-      {/* TESTIMONIALS */}
-      <section className="px-4 sm:px-6 lg:px-8 py-32 bg-card/30">
-        <div className="mx-auto max-w-7xl">
-          <Reveal className="mb-16">
-            <div className="text-[10px] uppercase tracking-[0.3em] text-primary mb-4">Client Stories</div>
-            <h2 className="font-display text-5xl sm:text-7xl leading-[0.9]">WHAT CLIENTS<br/><span className="text-fire-gradient">SAY ABOUT US</span></h2>
+            <h2 className="font-display text-6xl sm:text-8xl leading-[0.9]">VOICES OF<br/><span className="text-fire-gradient">OUR CLIENTS</span></h2>
           </Reveal>
           <RevealGroup className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
             {TESTIMONIALS.map((t, i) => (
